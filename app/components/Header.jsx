@@ -24,14 +24,13 @@ const Header = () => {
 
   return (
     <div className="sticky top-0 z-50 bg-gray-200 w-full h-auto font-bold">
-      <div className="grid grid-cols-2 grid-rows-1 gap-2">
-        <div className="flex justify-start flex-row lg:text-xl text-sm items-center py-5">
-          <Image src="/logo.svg" width={30} height={30} alt="logo" />
+      <div className="grid grid-cols-2 grid-rows-1">
+        <div className="flex gap-2 justify-start flex-row lg:text-xl text-sm items-center py-5">
+          <Image src="/logo.svg" width={30} height={30} alt="logo" className="lg:ml-1 ml-2" />
           Shrey +
           <AnimatePresence mode="wait">
             <motion.span
               key={texts[index]}
-              className="ml-2 font-bold"
               variants={flipVariants}
               initial="hidden"
               animate="visible"
