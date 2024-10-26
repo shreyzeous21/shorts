@@ -1,7 +1,9 @@
+"use server";
 import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
+  const Year = new Date().getFullYear();
   return (
     <div className="h-auto w-full bg-black text-white py-5">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-center">
@@ -14,7 +16,7 @@ const Footer = () => {
         </div>
 
         <div className="text-sm flex justify-center items-center">
-          &copy; {new Date().getFullYear()} Galgotian Buddy
+          &copy; {Year} Galgotian Buddy
         </div>
 
         <div className="text-sm flex justify-center items-center">
