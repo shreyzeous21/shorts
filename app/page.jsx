@@ -6,7 +6,7 @@ import Content from "./components/Content/Content";
 const Home = () => {
   return (
     <div className="h-auto lg:w-[60vw] mx-auto justify-center">
-      <Header className="" />
+      <Header />
       <Content />
       <Footer />
     </div>
