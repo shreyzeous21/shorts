@@ -14,11 +14,11 @@ const Footer = () => {
         </div>
 
         <div className="text-sm flex justify-center items-center">
-          &copy; {new Date().getFullYear()} Shrey Shorts
+          &copy; {new Date().getFullYear()} Galgotian Buddy
         </div>
 
         <div className="text-sm flex justify-center items-center">
-          Developed & Designed by Shrey
+          Developed & Designed by Cutie
         </div>
       </div>
     </div>

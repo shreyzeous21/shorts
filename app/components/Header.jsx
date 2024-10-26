@@ -6,7 +6,7 @@ import Navbar from "./Navbar/Navbar";
 
 const Header = () => {
   const [index, setIndex] = useState(0);
-  const texts = ["Sadhukhan", "Dev", "Coder"];
+  const texts = ["Buddy", "Cuties", "Coder"];
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -27,7 +27,7 @@ const Header = () => {
       <div className="grid grid-cols-2 grid-rows-1">
         <div className="flex gap-2 justify-start flex-row lg:text-xl text-sm items-center py-5">
           <Image src="/logo.svg" width={30} height={30} alt="logo" className="lg:ml-1 ml-2" />
-          Shrey +
+          Galgotian +
           <AnimatePresence mode="wait">
             <motion.span
               key={texts[index]}
